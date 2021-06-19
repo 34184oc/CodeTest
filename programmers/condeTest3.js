@@ -14,3 +14,7 @@ function solution(arr) {
 // Test
 let test = [0, 1, 3];
 console.log(solution(test));
+
+function solution(arr) {
+	return.reduce((a, b) => a + b) / arr.length;
+}
